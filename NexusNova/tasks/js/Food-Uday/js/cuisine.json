@@ -1,0 +1,26 @@
+[
+    {
+        "name": "North Indian",
+        "description": "Rich and diverse, North Indian cuisine is known for its use of dairy products and spices.",
+        "img": "./assets/images/chhole.jpg",
+        "link": "north-indian.html"
+    },
+    {
+        "name": "South Indian",
+        "description": "Famous for its rice-based dishes and unique flavors, South Indian cuisine is a must-try.",
+        "img": "./assets/images/chicken.jpg",
+        "link": "south-indian.html"
+    },
+    {
+        "name": "East Indian",
+        "description": "Known for its seafood and sweets, East Indian cuisine offers a variety of flavors.",
+        "img": "./assets/images/daal.jpg",
+        "link": "east-indian.html"
+    },
+    {
+        "name": "West Indian",
+        "description": "Spicy and vibrant, West Indian cuisine is famous for its curries and street food.",
+        "img": "./assets/images/dosa.jpg",
+        "link": "west-indian.html"
+    }
+]

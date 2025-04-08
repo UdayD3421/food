@@ -1,0 +1,82 @@
+
+$primary-color: #4CAF50;
+$primary-color1:#2e7d32;
+$hover-color: darken($primary-color, 10%);
+$background-color: #fff;
+$background-color1:#e0f7fa;
+$text-color: #333;
+$active:#003049;
+$border-color1:black;
+$recipe-bgcolor:#fff3cd;
+$recipe-heading:#d62828;
+$overlay-color: rgb(54, 151, 180);
+$button-color: #eee;
+$button-color1:$primary-color;
+$button-text:#333;
+$button-text1:white;
+$hover-text-color: white;
+$hover-button-backgroud:#45a049;
+$border-color:$text-color;
+$grad-color: red, yellow,white,green,blue;
+$grad-cuisine-heading: green,yellow,purple;
+$heading-h2:rgb(245, 3, 221),rgb(21, 0, 255),rgb(0, 174, 255);
+$card-bgcolor:#fff3e0;
+$carousel-background-color:#e1f5fe;
+$submit-btn:#00796b;
+$submit-btn1:#004d40;
+
+$box-shadow0:rgba(0,0,0,0.5);
+$box-shadow:rgba(0, 0, 0, 0.1);
+$box-shadow1:rgba(0, 0, 0, 0.15);
+
+$faq:#ffe0b2;
+$faq1:#ffcc80;
+$faq2:#fff8e1;
+
+$footer-bgcolor:#222;
+$footer-text:white;
+$link:#ccc;
+$hover:#fff;
+$error-color: #f44336;
+
+
+.dark-mode {
+    $primary-color: #4CAF50;
+    $primary-color1:#2e7d32;
+    $hover-color: darken($primary-color, 10%);
+    $background-color: #000000;
+    $background-color1:#898989;
+    $text-color: #ebe6e6;
+    $active:#c3c5c5;
+    $border-color1:rgb(240, 240, 240);
+    $recipe-bgcolor:#96854b;
+    $recipe-heading:#f35454;
+    $overlay-color: rgb(54, 151, 180);
+    $button-color: #3f3f3f;
+    $button-color1:$primary-color;
+    $button-text:#333;
+    $button-text1:rgb(93, 87, 87);
+    $hover-text-color: rgb(183, 123, 123);
+    $hover-button-backgroud:#4588a0;
+    $border-color:$text-color;
+    $grad-color: rgb(207, 99, 224), rgb(83, 83, 77),rgb(242, 131, 131),rgb(136, 180, 25),rgb(255, 0, 119);
+    $grad-cuisine-heading: rgb(128, 0, 0),rgb(255, 132, 0),rgb(38, 128, 0);
+    $heading-h2:rgb(245, 3, 221),rgb(21, 0, 255),rgb(0, 174, 255);
+    $card-bgcolor:#282827;
+    $carousel-background-color:#5ecbfd;
+    $submit-btn:#00796b;
+    $submit-btn1:#004d40;
+
+    $box-shadow0:rgba(255, 255, 255, 0.5);
+    $box-shadow:rgba(255, 255, 255, 0.1);
+    $box-shadow1:rgba(255, 255, 255, 0.15);
+
+    $faq:#252525;
+    $faq1:#7e7e7c;
+    $faq2:#221f13;
+
+    $footer-bgcolor:#222;
+    $footer-text:white;
+    $link:#ccc;
+    $hover:#fff;
+}

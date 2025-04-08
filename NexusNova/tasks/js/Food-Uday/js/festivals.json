@@ -1,0 +1,48 @@
+{
+    "recipes": {
+      "Starters": [
+        {
+          "name": "Samosa",
+          "img": "./assets/images/Samosa.jpeg",
+          "festival": "Ramadan"
+        },
+        {
+          "name": "Pakora",
+          "img": "assets/images/Idli.jpeg",
+          "festival": "Rainy Days/Monsoon"
+        }
+      ],
+      "Main Course": [
+        {
+          "name": "Biryani",
+          "img": "assets/images/Biryani.jpeg",
+          "festival": "Eid"
+        }
+      ],
+      "Desserts": [
+        {
+          "name": "Modak",
+          "img": "assets/images/Idli.jpg",
+          "festival": "Ganesh Chaturthi"
+        },
+        {
+          "name": "Ladoo",
+          "img": "assets/images/Idli.jpeg",
+          "festival": "Weddings and Pujas"
+        },
+        {
+          "name": "Gujiya",
+          "img": "assets/images/Idli.jpeg",
+          "festival": "Holi"
+        }
+      ],
+      "Beverages": [
+        {
+          "name": "Thandai",
+          "img": "assets/images/Idli.jpeg",
+          "festival": "Holi"
+        }
+      ]
+    }
+  }
+  

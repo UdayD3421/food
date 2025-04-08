@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Butter Chicken",
+        "description": "A rich and creamy chicken curry.",
+        "img": "./assets/images/chapati.jpg"
+    },
+    {
+        "name": "Dosa",
+        "description": "A thin and crispy pancake made from fermented rice and lentils.",
+        "img": "./assets/images/chapati.jpg"
+    },
+    {
+        "name": "Macher Jhol",
+        "description": "A traditional Bengali fish curry.",
+        "img": "./assets/images/chapati.jpg"
+    },
+    {
+        "name": "Pav Bhaji",
+        "description": "A spicy vegetable mash served with buttered bread.",
+        "img": "./assets/images/chapati.jpg"
+    },
+    {
+        "name": "Thukpa",
+        "description": "A noodle soup from the northeastern region of India.",
+        "img": "./assets/images/chapati.jpg"
+    }
+]

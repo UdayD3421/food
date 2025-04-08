@@ -1,0 +1,302 @@
+// Variables
+$button-bg-color: rgba(255, 255, 255, 0.8);
+$button-hover-bg: rgba(255, 255, 255, 1);
+$button-text-color: black;
+
+// Reset and base styles
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+// Hero Section with Animated Gradient
+.hero {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFDEE9, #B5FFFC, #C9FFBF, #FFD6A5);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(195, 119, 119);
+    overflow: hidden;
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        button {
+            background-color: $background-color1;
+            border: none;
+            color: $button-text-color;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+
+            &:hover {
+                background-color: $button-hover-bg;
+                color: $button-text-color;
+            }
+        }
+    }
+}
+
+// Animations
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+// Responsive Styling
+@media (max-width: 768px) {
+    .hero-content {
+        h1 {
+            font-size: 2rem;
+        }
+
+        button {
+            padding: 8px 16px;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+
+//hero section ends here
+
+//featured regional food section start
+.featured-regional-foods {
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 480px) {
+            grid-template-columns: 1fr;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .card-content {
+                padding: 15px;
+
+                h3 {
+                    margin: 10px 0;
+                }
+
+                p {
+                    margin: 0;
+                    color: #666;
+                }
+
+                a {
+                    display: inline-block;
+                    margin-top: 10px;
+                    padding: 10px 15px;
+                    background: $primary-color;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background 0.3s;
+
+                    &:hover {
+                        background: darken($primary-color, 10%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//featured regional food ends here
+
+//fetch part starts
+#userTableBody img{
+    width: 150px;
+    height: auto;
+}
+.featured-regional-foods {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3 cards per row on desktop
+    gap: 20px;
+    padding: 20px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr); // 2 cards per row on tablet
+    }
+
+    @media (max-width: 480px) {
+        grid-template-columns: 1fr; // 1 card per row on mobile
+    }
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+
+    h3 {
+        margin: 0 0 10px;
+        text-align: center;
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    p {
+        margin: 10px 0;
+        margin-bottom: 40px;
+    }
+
+    .card-button {
+        // display: inline-block;
+        position: absolute;
+        right: 35%;
+        bottom: 10px;
+        padding: 10px 15px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        // display: flex;
+        // justify-content: center;
+        // margin-bottom: 10px;
+        
+        
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
+
+.centered-card {
+    // justify-self: center; // Center the 4th card horizontally
+    grid-column: 2 / 3;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+//fetch part ends here
+
+
+//fun fact starts
+.fun-facts {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    overflow: hidden; // Hide overflow for smooth scrolling
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin: 20px 0; // Space between the heading and the facts
+    }
+
+    .facts-wrapper {
+        width: 100%;
+        overflow: hidden; // Hide overflow for smooth scrolling
+        position: relative; // Position relative for absolute child
+
+        .facts-container {
+            display: flex; // Use flexbox for horizontal layout
+            animation: scroll 25s linear infinite; // Continuous scrolling animation
+
+            .fact {
+                min-width: 200px; // Set a minimum width for each fact
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                margin-right: 20px; // Space between facts
+                flex-shrink: 0; // Prevent shrinking
+            }
+        }
+    }
+}
+
+// Continuous scrolling animation
+@keyframes scroll {
+    0% {
+        transform: translateX(0%); // Start from the right
+    }
+    100% {
+        transform: translateX(-248%); // Move to the left
+    }
+}

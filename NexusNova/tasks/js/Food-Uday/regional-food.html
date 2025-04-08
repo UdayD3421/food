@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regional Food</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body id="regional">
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="myLogo" />
+        <p>FOOD</p>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">Regional Foods</a>
+            <ul class="dropdown">
+              <li><a href="#">North</a></li>
+              <li><a href="#">South</a></li>
+              <li><a href="#">East</a></li>
+              <li><a href="#">West</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#">Recipes</a></li>
+          <li class="nav-item"><a href="#">Cultural Significance</a></li>
+          <li class="nav-item"><a href="#">About Us</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search..." />
+        <button id="search-btn1" class="search-btn">Search</button>
+      </div>
+    </header>
+
+    <!-- <div>
+        <img src="./ind.svg" alt="SVG IMAGE">
+    </div> -->
+
+    <!-- main -->
+    <section class="region-filters">
+      <button class="filter-btn active" data-region="all">All</button>
+      <button class="filter-btn" data-region="north">North</button>
+      <button class="filter-btn" data-region="south">South</button>
+      <button class="filter-btn" data-region="east">East</button>
+      <button class="filter-btn" data-region="west">West</button>
+      <button class="filter-btn" data-region="northeast">Northeast</button>
+    </section>
+
+    <!-- Cuisine Cards Grid -->
+    <section class="cuisine-grid" id="cuisineGrid">
+      <!-- Cards will be dynamically injected here using JS -->
+    </section>
+    <main>
+      <section id="recipe-cards"></section>
+      <section id="recipe-details" class="hidden"></section>
+    </main>
+
+    <section class="map-section">
+      <h2>Explore by Region</h2>
+      <div class="india-map-container">
+        <img src="https://i.postimg.cc/9FpBYgxz/map.jpg" alt="India Map" />
+        <div
+          class="map-marker"
+          data-region="north"
+          style="top: 30%; left: 33%; background-color: red"
+        ></div>
+        <div
+          class="map-marker"
+          data-region="south"
+          style="top: 70%; left: 35%; background-color: orange"
+        ></div>
+        <div
+          class="map-marker"
+          data-region="east"
+          style="top: 50%; left: 60%; background-color: lightgreen"
+        ></div>
+        <div
+          class="map-marker"
+          data-region="west"
+          style="top: 55%; left: 25%; background-color: blue"
+        ></div>
+        <div
+          class="map-marker"
+          data-region="northeast"
+          style="top: 33%; left: 80%; background-color: purple"
+        ></div>
+      </div>
+
+      <!-- <div class="india-map-container">
+        <svg id="indiaMap" viewBox="0 0 1000 1000">
+          <circle
+            cx="300"
+            cy="400"
+            r="10"
+            fill="red"
+            data-region="north"
+            class="map-marker"
+          />
+          <circle
+            cx="500"
+            cy="600"
+            r="10"
+            fill="blue"
+            data-region="south"
+            class="map-marker"
+          />
+          <circle
+            cx="700"
+            cy="500"
+            r="10"
+            fill="green"
+            data-region="east"
+            class="map-marker"
+          />
+          <circle
+            cx="400"
+            cy="700"
+            r="10"
+            fill="orange"
+            data-region="west"
+            class="map-marker"
+          />
+          <circle
+            cx="800"
+            cy="300"
+            r="10"
+            fill="purple"
+            data-region="northeast"
+            class="map-marker"
+          />
+        </svg>
+      </div> -->
+      <div id="regionDetails" class="region-details">
+        <!-- Region info will be inserted here -->
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social-media">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Food-Website. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script defer src="./js/regional-food.js"></script>
+
+  </body>
+</html>

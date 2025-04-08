@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Biryani",
+      "origin": "Originated during the Mughal era, Biryani is a flavorful mix of rice, meat, and spices, showcasing Persian influence in Indian cuisine.",
+      "image": "./assets/images/Biryani.jpeg"
+    },
+    {
+      "name": "Samosa",
+      "origin": "Introduced to India by Central Asian traders, Samosa became a popular deep-fried snack filled with spicy potatoes or meat.",
+      "image": "./assets/images/samosa.jpeg"
+    },
+    {
+      "name": "Idli",
+      "origin": "With roots in ancient Tamil literature, Idli is a steamed cake made from fermented rice and lentils, known for its light texture.",
+      "image": "./assets/images/Idli.jpeg"
+    },
+    {
+      "name": "Dhokla",
+      "origin": "A Gujarati dish made from fermented chickpea flour, Dhokla is known for its fluffy texture and sweet-sour balance.",
+      "image": "./assets/images/Dhokla.jpeg"
+    },
+    {
+      "name": "Rogan Josh",
+      "origin": "A staple of Kashmiri cuisine, Rogan Josh is a slow-cooked lamb curry with Persian roots, infused with aromatic spices.",
+      "image": "./assets/images/RoganJosh.jpeg"
+    },
+    {
+      "name": "Dosa",
+      "origin": "Native to South India, Dosa is a thin crepe made from fermented rice and lentil batter, often served with chutneys and sambar.",
+      "image": "./assets/images/Dosa.jpeg"
+    },
+    {
+      "name": "Chole Bhature",
+      "origin": "A North Indian favorite, Chole Bhature pairs spicy chickpeas with fluffy deep-fried bread, often enjoyed as a hearty meal.",
+      "image": "./assets/images/CholeBhature.jpeg"
+    },
+    {
+      "name": "Butter Chicken",
+      "origin": "Created in Delhi, Butter Chicken features tandoori chicken simmered in a creamy tomato-based gravy with spices.",
+      "image": "./assets/images/ButterChicken.jpeg"
+    },
+    {
+      "name": "Pani Puri",
+      "origin": "Also known as Golgappa, this street food originated in Magadh and consists of crisp puris filled with tangy, spicy water and potatoes.",
+      "image": "./assets/images/PaniPuri.jpeg"
+    },
+    {
+      "name": "Rajma",
+      "origin": "A comforting dish of red kidney beans in spiced gravy, Rajma is a Punjabi staple served with steamed rice.",
+      "image": "./assets/images/Rajma.jpeg"
+    }
+  ]
+  

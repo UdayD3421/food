@@ -1,0 +1,694 @@
+{
+  "recipes": {
+    "Starters": [
+      {
+        "name": "Samosa",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "4 medium potatoes, boiled and mashed",
+          "1 cup green peas, boiled",
+          "1 tsp cumin seeds",
+          "2 tsp garam masala",
+          "Salt to taste",
+          "Oil for frying"
+        ],
+        "preparation_steps": [
+          "Make a dough with flour and water.",
+          "Prepare the filling with potatoes, peas, and spices.",
+          "Shape the dough into triangles, fill with the mixture, and seal.",
+          "Deep fry until golden brown."
+        ],
+        "cultural_significance": "A popular Indian snack, often served with chutney."
+      },
+      {
+        "name": "Paneer Tikka",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "250g paneer, cubed",
+          "1 cup yogurt",
+          "2 tbsp tikka masala",
+          "1 bell pepper, cubed",
+          "1 onion, cubed",
+          "Salt to taste"
+        ],
+        "preparation_steps": [
+          "Marinate paneer and vegetables in yogurt and spices.",
+          "Skewer and grill until charred.",
+          "Serve with mint chutney."
+        ],
+        "cultural_significance": "A favorite appetizer, often enjoyed at parties."
+      },
+      {
+        "name": "Dhokla",
+        "img": "assets/images/idli.jpg",
+        "region": "Gujarat",
+        "ingredients": [
+          "2 cups gram flour",
+          "1 cup yogurt",
+          "1 tsp turmeric",
+          "1 tsp baking soda",
+          "Salt to taste",
+          "Tempering: mustard seeds, curry leaves, green chilies"
+        ],
+        "preparation_steps": [
+          "Mix gram flour, yogurt, and spices to form a batter.",
+          "Steam until firm.",
+          "Temper with mustard seeds, curry leaves, and green chilies."
+        ],
+        "cultural_significance": "A soft and spongy Gujarati snack, perfect for breakfast or tea."
+      },
+      {
+        "name": "Aloo Tikki",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "4 medium potatoes, boiled and mashed",
+          "1 tsp cumin powder",
+          "1 tsp chaat masala",
+          "Salt to taste",
+          "Oil for shallow frying"
+        ],
+        "preparation_steps": [
+          "Mix mashed potatoes with spices and shape into patties.",
+          "Shallow fry until golden brown.",
+          "Serve with chutney or yogurt."
+        ],
+        "cultural_significance": "A street food favorite, often served as chaat."
+      },
+      {
+        "name": "Pakora",
+        "img": "assets/images/idli.jpg",
+        "region": "Pan India",
+        "ingredients": [
+          "2 cups gram flour",
+          "1 cup sliced onions or potatoes",
+          "1 tsp chili powder",
+          "1 tsp cumin seeds",
+          "Salt to taste",
+          "Oil for deep frying"
+        ],
+        "preparation_steps": [
+          "Make a batter with gram flour, spices, and water.",
+          "Dip vegetables into the batter and deep fry.",
+          "Serve with chutney."
+        ],
+        "cultural_significance": "A popular monsoon snack enjoyed with tea."
+      },
+      {
+        "name": "Hara Bhara Kebab",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "1 cup spinach, boiled and chopped",
+          "1 cup boiled peas",
+          "2 boiled potatoes",
+          "1 tsp ginger paste",
+          "1 tsp garam masala",
+          "Salt to taste",
+          "Oil for shallow frying"
+        ],
+        "preparation_steps": [
+          "Mash all ingredients together and form patties.",
+          "Shallow fry until crisp.",
+          "Serve with green chutney."
+        ],
+        "cultural_significance": "A healthy and tasty vegetarian kebab."
+      },
+      {
+        "name": "Pani Puri",
+        "img": "assets/images/idli.jpg",
+        "region": "Maharashtra",
+        "ingredients": [
+          "1 cup semolina",
+          "2 boiled potatoes",
+          "1 cup cooked chickpeas",
+          "1 tsp chaat masala",
+          "Pani (spiced mint water)"
+        ],
+        "preparation_steps": [
+          "Make and fry puris until crispy.",
+          "Prepare spiced potato filling.",
+          "Fill puris with potatoes, chickpeas, and spicy mint water."
+        ],
+        "cultural_significance": "A famous street food snack enjoyed across India."
+      },
+      {
+        "name": "Mirchi Bajji",
+        "img": "assets/images/idli.jpg",
+        "region": "South India",
+        "ingredients": [
+          "6 large green chilies",
+          "1 cup gram flour",
+          "1 tsp chili powder",
+          "Salt to taste",
+          "Oil for deep frying"
+        ],
+        "preparation_steps": [
+          "Slit green chilies and remove seeds.",
+          "Dip in gram flour batter and deep fry.",
+          "Serve with chutney."
+        ],
+        "cultural_significance": "A popular spicy snack from Andhra Pradesh."
+      },
+      {
+        "name": "Dahi Puri",
+        "img": "assets/images/idli.jpg",
+        "region": "Maharashtra",
+        "ingredients": [
+          "10 small puris",
+          "1 cup yogurt",
+          "2 boiled potatoes, mashed",
+          "1 tsp chaat masala",
+          "Tamarind chutney",
+          "Green chutney"
+        ],
+        "preparation_steps": [
+          "Fill puris with mashed potatoes and yogurt.",
+          "Drizzle with chutneys and spices.",
+          "Serve immediately."
+        ],
+        "cultural_significance": "A variation of Pani Puri, with a creamy and tangy flavor."
+      },
+      {
+        "name": "Momos",
+        "img": "assets/images/idli.jpg",
+        "region": "North-East India",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 cup cabbage, finely chopped",
+          "1 cup carrot, finely chopped",
+          "1 tsp soy sauce",
+          "Salt to taste"
+        ],
+        "preparation_steps": [
+          "Make a dough with flour and water.",
+          "Prepare a filling with cabbage, carrot, and soy sauce.",
+          "Fill and shape dumplings, then steam until cooked."
+        ],
+        "cultural_significance": "Originally from Tibet, momos are now a beloved Indian street food."
+      }
+    ],
+    "Main Course": [
+      {
+        "name": "Biryani",
+        "img": "assets/images/idli.jpg",
+        "region": "Hyderabad",
+        "ingredients": [
+          "2 cups basmati rice",
+          "500g chicken, marinated",
+          "2 onions, sliced",
+          "1 cup yogurt",
+          "Spices (cinnamon, cardamom, cloves)",
+          "Salt to taste"
+        ],
+        "preparation_steps": [
+          "Fry onions until golden.",
+          "Add marinated chicken and cook.",
+          "Layer rice and cook on low heat until done."
+        ],
+        "cultural_significance": "A fragrant rice dish with Persian influences, widely popular in India."
+      },
+      {
+        "name": "Butter Chicken",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "500g chicken, boneless",
+          "1 cup tomato puree",
+          "1 cup cream",
+          "2 tbsp butter",
+          "Spices (garam masala, cumin)",
+          "Salt to taste"
+        ],
+        "preparation_steps": [
+          "Cook chicken in spices and tomato puree.",
+          "Add cream and butter, simmer until thick.",
+          "Serve with naan or rice."
+        ],
+        "cultural_significance": "A creamy and rich dish that originated in Delhi."
+      },
+      {
+        "name": "Dal Makhani",
+        "img": "assets/images/idli.jpg",
+        "region": "Punjab",
+        "ingredients": [
+          "1 cup black lentils",
+          "1/2 cup kidney beans",
+          "1 cup tomato puree",
+          "1/2 cup cream",
+          "2 tbsp butter",
+          "Spices (garam masala, cumin)"
+        ],
+        "preparation_steps": [
+          "Soak lentils and kidney beans overnight and cook until soft.",
+          "Prepare a tomato-based gravy and mix with cooked lentils.",
+          "Simmer with butter and cream for a rich texture."
+        ],
+        "cultural_significance": "A Punjabi specialty, often paired with naan or jeera rice."
+      },
+      {
+        "name": "Rogan Josh",
+        "img": "assets/images/idli.jpg",
+        "region": "Kashmir",
+        "ingredients": [
+          "500g mutton",
+          "1 cup yogurt",
+          "2 onions, sliced",
+          "Spices (red chili powder, garam masala, fennel seeds)",
+          "Salt to taste"
+        ],
+        "preparation_steps": [
+          "Cook mutton with onions and spices.",
+          "Add yogurt and slow cook until tender.",
+          "Serve with rice or naan."
+        ],
+        "cultural_significance": "A signature Kashmiri dish known for its deep red color and rich flavor."
+      },
+      {
+        "name": "Palak Paneer",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "250g paneer",
+          "2 cups spinach, pureed",
+          "1 onion, chopped",
+          "1 tomato, chopped",
+          "Spices (garam masala, cumin, turmeric)"
+        ],
+        "preparation_steps": [
+          "Blanch and puree spinach.",
+          "Saut\u00e9 onions, tomatoes, and spices, then mix with spinach puree.",
+          "Add paneer cubes and simmer."
+        ],
+        "cultural_significance": "A nutritious and flavorful dish, rich in iron and protein."
+      },
+      {
+        "name": "Chole Bhature",
+        "img": "assets/images/idli.jpg",
+        "region": "Punjab",
+        "ingredients": [
+          "2 cups chickpeas, soaked and boiled",
+          "1 onion, chopped",
+          "1 tomato, chopped",
+          "Spices (coriander, cumin, garam masala)",
+          "For Bhature: all-purpose flour, yogurt, salt"
+        ],
+        "preparation_steps": [
+          "Cook chickpeas in a spiced onion-tomato gravy.",
+          "Prepare dough for Bhature and deep fry.",
+          "Serve hot together."
+        ],
+        "cultural_significance": "A popular Punjabi dish, often enjoyed as a weekend treat."
+      },
+      {
+        "name": "Masala Dosa",
+        "img": "assets/images/idli.jpg",
+        "region": "South India",
+        "ingredients": [
+          "2 cups rice",
+          "1 cup urad dal",
+          "2 boiled potatoes",
+          "1 onion, chopped",
+          "Spices (turmeric, mustard seeds, curry leaves)"
+        ],
+        "preparation_steps": [
+          "Soak and grind rice and dal to make dosa batter.",
+          "Prepare spiced mashed potato filling.",
+          "Cook dosa on a pan, fill with potato mixture, and fold."
+        ],
+        "cultural_significance": "A crispy and savory South Indian breakfast staple."
+      },
+      {
+        "name": "Baingan Bharta",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "2 large eggplants",
+          "1 onion, chopped",
+          "1 tomato, chopped",
+          "1 green chili, chopped",
+          "Spices (cumin, turmeric, garam masala)"
+        ],
+        "preparation_steps": [
+          "Roast eggplants until charred, then mash.",
+          "Saut\u00e9 onions, tomatoes, and spices, then mix with mashed eggplant.",
+          "Cook until fragrant and serve with roti."
+        ],
+        "cultural_significance": "A smoky and flavorful dish from North India."
+      },
+      {
+        "name": "Pongal",
+        "img": "assets/images/idli.jpg",
+        "region": "Tamil Nadu",
+        "ingredients": [
+          "1 cup rice",
+          "1/2 cup moong dal",
+          "2 tbsp ghee",
+          "1 tsp black pepper",
+          "1 tsp cumin seeds",
+          "Cashews for garnish"
+        ],
+        "preparation_steps": [
+          "Cook rice and moong dal together.",
+          "Temper with ghee, black pepper, and cumin.",
+          "Garnish with cashews and serve."
+        ],
+        "cultural_significance": "A comforting dish, often prepared during the Pongal festival."
+      },
+      {
+        "name": "Sarson da Saag with Makki di Roti",
+        "img": "assets/images/idli.jpg",
+        "region": "Punjab",
+        "ingredients": [
+          "2 cups mustard greens",
+          "1/2 cup spinach",
+          "1 onion, chopped",
+          "1 tomato, chopped",
+          "Spices (garlic, ginger, green chilies)",
+          "For Roti: maize flour, water, salt"
+        ],
+        "preparation_steps": [
+          "Boil and mash mustard greens and spinach.",
+          "Cook with onions, tomatoes, and spices.",
+          "Prepare and cook maize flour rotis on a griddle.",
+          "Serve together with butter."
+        ],
+        "cultural_significance": "A winter delicacy from Punjab, best enjoyed with butter and jaggery."
+      }
+    ],
+    "Desserts": [
+      {
+        "name": "Gulab Jamun",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "1 cup khoya (dried milk)",
+          "1/4 cup all-purpose flour",
+          "1/2 tsp baking powder",
+          "Sugar syrup",
+          "Oil for frying"
+        ],
+        "preparation_steps": [
+          "Make dough from khoya, flour, and baking powder.",
+          "Shape into balls and fry until golden.",
+          "Soak in sugar syrup."
+        ],
+        "cultural_significance": "A classic Indian sweet often served at festivals and celebrations."
+      },
+      {
+        "name": "Rasgulla",
+        "img": "assets/images/idli.jpg",
+        "region": "West Bengal",
+        "ingredients": [
+          "1 liter milk",
+          "1/4 cup lemon juice",
+          "1 cup sugar",
+          "4 cups water"
+        ],
+        "preparation_steps": [
+          "Boil milk and curdle with lemon juice.",
+          "Knead the chenna into smooth balls.",
+          "Boil in sugar syrup until spongy."
+        ],
+        "cultural_significance": "A famous Bengali sweet known for its soft and spongy texture."
+      },
+      {
+        "name": "Jalebi",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1/2 cup yogurt",
+          "1/2 tsp baking soda",
+          "Sugar syrup",
+          "Oil for frying"
+        ],
+        "preparation_steps": [
+          "Make a batter with flour, yogurt, and baking soda.",
+          "Pipe into spirals and deep fry until crisp.",
+          "Soak in sugar syrup and serve."
+        ],
+        "cultural_significance": "A crispy, sweet treat often enjoyed during festivals."
+      },
+      {
+        "name": "Kheer",
+        "img": "assets/images/idli.jpg",
+        "region": "Pan India",
+        "ingredients": [
+          "1 liter milk",
+          "1/2 cup rice",
+          "1/2 cup sugar",
+          "1/4 cup chopped nuts",
+          "Cardamom powder"
+        ],
+        "preparation_steps": [
+          "Cook rice in milk until soft and thick.",
+          "Add sugar, nuts, and cardamom powder.",
+          "Simmer and serve warm or chilled."
+        ],
+        "cultural_significance": "A traditional rice pudding, often prepared during religious ceremonies."
+      },
+      {
+        "name": "Mysore Pak",
+        "img": "assets/images/idli.jpg",
+        "region": "Karnataka",
+        "ingredients": [
+          "1 cup besan (gram flour)",
+          "1 cup ghee",
+          "1 cup sugar",
+          "1/2 cup water"
+        ],
+        "preparation_steps": [
+          "Make sugar syrup by boiling sugar and water.",
+          "Add besan and ghee gradually, stirring continuously.",
+          "Cook until mixture thickens and sets, then cut into pieces."
+        ],
+        "cultural_significance": "A rich, buttery sweet that originated in the royal kitchens of Mysore."
+      },
+      {
+        "name": "Modak",
+        "img": "assets/images/idli.jpg",
+        "region": "Maharashtra",
+        "ingredients": [
+          "1 cup rice flour",
+          "1/2 cup grated coconut",
+          "1/2 cup jaggery",
+          "1/2 tsp cardamom powder"
+        ],
+        "preparation_steps": [
+          "Make a dough with rice flour and hot water.",
+          "Prepare filling with coconut, jaggery, and cardamom.",
+          "Shape into dumplings and steam until cooked."
+        ],
+        "cultural_significance": "A favorite sweet of Lord Ganesha, often made during Ganesh Chaturthi."
+      },
+      {
+        "name": "Malpua",
+        "img": "assets/images/idli.jpg",
+        "region": "Rajasthan",
+        "ingredients": [
+          "1 cup all-purpose flour",
+          "1/2 cup milk",
+          "1/4 cup sugar",
+          "1/4 tsp cardamom powder",
+          "Oil for frying"
+        ],
+        "preparation_steps": [
+          "Make a batter with flour, milk, and sugar.",
+          "Fry small pancakes until golden brown.",
+          "Soak in sugar syrup and serve."
+        ],
+        "cultural_significance": "A festive delicacy, often prepared during Holi and Diwali."
+      },
+      {
+        "name": "Puran Poli",
+        "img": "assets/images/idli.jpg",
+        "region": "Maharashtra",
+        "ingredients": [
+          "2 cups whole wheat flour",
+          "1 cup chana dal",
+          "1 cup jaggery",
+          "1/2 tsp cardamom powder",
+          "Ghee for frying"
+        ],
+        "preparation_steps": [
+          "Cook chana dal and mix with jaggery and cardamom to make a filling.",
+          "Make a dough with whole wheat flour and roll into discs.",
+          "Fill with sweet mixture, roll out, and cook with ghee."
+        ],
+        "cultural_significance": "A traditional sweet flatbread, prepared during special occasions."
+      },
+      {
+        "name": "Sandesh",
+        "img": "assets/images/idli.jpg",
+        "region": "West Bengal",
+        "ingredients": [
+          "1 liter milk",
+          "1/4 cup lemon juice",
+          "1/2 cup powdered sugar",
+          "1/4 tsp cardamom powder"
+        ],
+        "preparation_steps": [
+          "Curdle milk with lemon juice to make chenna.",
+          "Knead chenna until smooth, mix with sugar and cardamom.",
+          "Shape into small pieces and refrigerate."
+        ],
+        "cultural_significance": "A delicate Bengali sweet, known for its soft and melt-in-the-mouth texture."
+      },
+      {
+        "name": "Payasam",
+        "img": "assets/images/idli.jpg",
+        "region": "Kerala",
+        "ingredients": [
+          "1 liter coconut milk",
+          "1/2 cup jaggery",
+          "1/2 cup rice or vermicelli",
+          "1/4 cup cashews and raisins",
+          "Cardamom powder"
+        ],
+        "preparation_steps": [
+          "Cook rice or vermicelli in coconut milk.",
+          "Add jaggery and cardamom powder.",
+          "Garnish with fried cashews and raisins."
+        ],
+        "cultural_significance": "A South Indian dessert, often served in temples and festivals."
+      }
+    ],
+    "Beverages": [
+      {
+        "name": "Masala Chai",
+        "img": "assets/images/idli.jpg",
+        "region": "All India",
+        "ingredients": [
+          "Black tea",
+          "Milk",
+          "Spices (cardamom, ginger, cinnamon)",
+          "Sugar"
+        ],
+        "steps": "Boil water and spices. Add tea leaves. Add milk and sugar. Simmer and strain.",
+        "culture": "A staple beverage in Indian households, often enjoyed during morning and evening."
+      },
+      {
+        "name": "Lassi",
+        "img": "assets/images/idli.jpg",
+        "region": "Punjab",
+        "ingredients": [
+          "Yogurt",
+          "Water",
+          "Sugar or salt",
+          "Cardamom (optional)"
+        ],
+        "steps": "Blend yogurt with water and flavorings until smooth. Serve chilled.",
+        "culture": "Traditional Punjabi drink served during summers for refreshment."
+      },
+      {
+        "name": "Filter Coffee",
+        "img": "assets/images/idli.jpg",
+        "region": "South India",
+        "ingredients": [
+          "Ground coffee",
+          "Boiling water",
+          "Milk",
+          "Sugar"
+        ],
+        "steps": "Brew coffee in a filter. Boil milk. Mix both and serve hot.",
+        "culture": "Popular in Tamil Nadu and Karnataka, typically served in steel tumblers."
+      },
+      {
+        "name": "Tender Coconut Water",
+        "img": "assets/images/idli.jpg",
+        "region": "Coastal India",
+        "ingredients": [
+          "Fresh tender coconut"
+        ],
+        "steps": "Chill and serve directly from the coconut shell.",
+        "culture": "Natural energy drink, widely consumed in tropical regions."
+      },
+      {
+        "name": "Buttermilk",
+        "img": "assets/images/idli.jpg",
+        "region": "Gujarat",
+        "ingredients": [
+          "Curd",
+          "Water",
+          "Salt",
+          "Cumin powder",
+          "Coriander"
+        ],
+        "steps": "Blend curd with water and spices. Serve chilled.",
+        "culture": "Cooling drink for summers, often served after meals."
+      },
+      {
+        "name": "Thandai",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "Milk",
+          "Almonds",
+          "Fennel seeds",
+          "Rose petals",
+          "Cardamom",
+          "Sugar"
+        ],
+        "steps": "Grind ingredients into a paste. Mix with chilled milk. Strain and serve.",
+        "culture": "Specially made during Holi festival for its cooling properties."
+      },
+      {
+        "name": "Jaljeera",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "Mint",
+          "Cumin",
+          "Tamarind",
+          "Black salt",
+          "Water"
+        ],
+        "steps": "Blend all ingredients with water. Chill and serve.",
+        "culture": "Tangy drink served as an appetizer or digestive."
+      },
+      {
+        "name": "Sugarcane Juice",
+        "img": "assets/images/idli.jpg",
+        "region": "All India",
+        "ingredients": [
+          "Fresh sugarcane",
+          "Lemon",
+          "Ginger"
+        ],
+        "steps": "Crush sugarcane and extract juice. Add lemon and ginger. Serve chilled.",
+        "culture": "Street-side favorite drink, especially in summer."
+      },
+      {
+        "name": "Sol Kadhi",
+        "img": "assets/images/idli.jpg",
+        "region": "Maharashtra",
+        "ingredients": [
+          "Kokum",
+          "Coconut milk",
+          "Garlic",
+          "Chili"
+        ],
+        "steps": "Soak kokum. Mix with coconut milk and spices. Chill and serve.",
+        "culture": "Digestive drink from coastal Maharashtra, often consumed after meals."
+      },
+      {
+        "name": "Aam Panna",
+        "img": "assets/images/idli.jpg",
+        "region": "North India",
+        "ingredients": [
+          "Raw mango",
+          "Mint",
+          "Cumin",
+          "Black salt",
+          "Sugar"
+        ],
+        "steps": "Boil mangoes. Blend with spices and chill. Serve with ice.",
+        "culture": "Summer cooler made from green mangoes, helps beat the heat."
+      }
+    ]
+  }
+}

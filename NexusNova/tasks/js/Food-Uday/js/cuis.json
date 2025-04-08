@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Rogan Josh",
+      "region": "North",
+      "description": "A flavorful lamb curry from Kashmir, rich in spices and yogurt.",
+      "image": "https://recipes.timesofindia.com/thumb/53192600.cms?width=1200&height=900"
+    },
+    {
+      "name": "Makki di Roti & Sarson da Saag",
+      "region": "North",
+      "description": "A Punjabi winter specialty made of maize flour bread and mustard greens.",
+      "image": "https://rajjoskitchen.com/wp-content/uploads/2024/02/IMG-20240201-WA0006.jpg"
+    },
+    {
+      "name": "Masala Dosa",
+      "region": "South",
+      "description": "A crispy fermented rice pancake filled with spicy potato masala.",
+      "image": "https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg"
+    },
+    {
+      "name": "Hyderabadi Biryani",
+      "region": "South",
+      "description": "A royal rice dish from Hyderabad cooked with marinated meat and saffron.",
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg"
+    },
+    {
+      "name": "Pakhala Bhata",
+      "region": "East",
+      "description": "A traditional Odia dish of fermented rice soaked in water, served with fried sides.",
+      "image": "https://ranveerbrar.com/wp-content/uploads/2024/03/Pakhala-Bhaat-2-1024x683.jpg"
+    },
+    {
+      "name": "Macher Jhol",
+      "region": "East",
+      "description": "A Bengali-style fish curry with potatoes and tomatoes, seasoned with turmeric.",
+      "image": "https://www.archanaskitchen.com//images/archanaskitchen/1-Author/Karthika_Gopalakrishnan/Aar_macher_Jhol.jpg"
+    },
+    {
+      "name": "Pav Bhaji",
+      "region": "West",
+      "description": "A spicy mashed vegetable curry served with butter-toasted bread rolls.",
+      "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg"
+    },
+    {
+      "name": "Goan Fish Curry",
+      "region": "West",
+      "description": "A tangy coconut-based curry with fresh fish, typical of Goan cuisine.",
+      "image": "https://www.recipetineats.com/tachyon/2020/10/Goan-Fish-Curry_6-SQ.jpg"
+    },
+    {
+      "name": "Smoked Pork with Bamboo Shoot",
+      "region": "Northeast",
+      "description": "A tribal delicacy from Nagaland cooked with smoked pork and bamboo shoots.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4ZpfruxwFUod_mLcbwMq1ey3dEVRwjaFJA&s"
+    },
+    {
+      "name": "Eromba",
+      "region": "Northeast",
+      "description": "A spicy Manipuri chutney made from fermented fish and boiled vegetables.",
+      "image": "https://i.pinimg.com/736x/24/bd/9d/24bd9df282d5a875e55ab9c03b1cbf9e.jpg"
+    }
+  ]
+  

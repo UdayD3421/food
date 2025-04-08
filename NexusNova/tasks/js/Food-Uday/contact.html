@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <main class="contact-page">
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" required>
+                    <span class="error-message" id="subjectError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+      </section>
+
+   <!-- Live Chat -->
+<div class="chatbot-toggler">
+  💬
+</div>
+
+<div class="chatbot">
+  <header>
+    <h2>Chatbot</h2>
+  </header>
+  <div class="chatbox">
+    <ul id="chat-list">
+      <li class="chat incoming"><p>Hi there! How can I help you today?</p></li>
+    </ul>
+  </div>
+  <div class="chat-input">
+    <textarea placeholder="Type a message..."></textarea>
+    <span>Send</span>
+  </div>
+</div> 
+
+    <!-- Location Map -->
+    <section class="map-section">
+      <h2>Culinary Regions</h2>
+      <div class="map-container">
+        <img src="./ind.svg" alt="India Map" id="mapImage"/>
+        <div class="marker" style="top: 32%; left: 35%;" data-info="North India"></div>
+        <div class="marker" style="top: 60%; left: 25%;" data-info="West India"></div>
+        <div class="marker" style="top: 80%; left: 35%;" data-info="South India"></div>
+        <div class="marker" style="top: 48%; left: 60%;" data-info="East India"></div>
+        <div class="marker" style="top: 40%; left: 80%;" data-info="NorthEast India"></div>
+      </div>
+      <div id="locationInfo"></div>
+    </section>
+  </main>
+  <section class="quiz">
+    <div class="quiz-container">
+        <h1>Which Indian Dish Matches Your Personality?</h1>
+        <div id="quiz"></div>
+        <button id="nextBtn">Next Question</button>
+        <div id="result" class="hidden"></div>
+    </div>
+  </section>
+
+  <script defer src="./js/contact.js"></script>
+</body>
+</html>

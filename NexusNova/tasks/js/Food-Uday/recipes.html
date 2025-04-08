@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Recipe Showcase</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/images/logo.png" alt="myLogo" />
+      <p>FOOD</p>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#">Regional Foods</a>
+          <ul class="dropdown">
+            <li><a href="#">North</a></li>
+            <li><a href="#">South</a></li>
+            <li><a href="#">East</a></li>
+            <li><a href="#">West</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#">Recipes</a></li>
+        <li class="nav-item"><a href="#">Cultural Significance</a></li>
+        <li class="nav-item"><a href="#">About Us</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search..." />
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+    <section id="filters">
+      <button data-category="All" class="active">All</button>
+      <button data-category="Starters">Starters</button>
+      <button data-category="Main Course">Main Course</button>
+      <button data-category="Desserts">Desserts</button>
+      <button data-category="Beverages">Beverages</button>
+    </section>
+    <button onclick="showFavorites()">My Favorites</button>
+    <div id="recipeContainer"></div>
+    <div id="favoritesContainer" style="display: none;"></div>
+
+  
+    <main>
+      <section id="recipe-cards"></section>
+      <section id="recipe-details" class="hidden"></section>
+    </main>
+  
+    <section id="add-recipe">
+      <h2>Add Your Own Recipe</h2>
+      <form id="recipe-form">
+        <input type="text" id="name" placeholder="Dish Name" required />
+        <input type="text" id="region" placeholder="Region" required />
+        <input type="text" id="category" placeholder="Category (e.g. Main Course)" required />
+        <input type="url" id="image" placeholder="Image URL" required />
+        <textarea id="ingredients" placeholder="Ingredients (comma-separated)" required></textarea>
+        <textarea id="steps" placeholder="Preparation Steps" required></textarea>
+        <textarea id="culture" placeholder="Cultural Significance" required></textarea>
+        <button type="submit">Submit Recipe</button>
+      </form>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social-media">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Food-Website. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  <script src="./js/recipes.js"></script>
+</body>
+</html>
